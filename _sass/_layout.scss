@@ -1,0 +1,92 @@
+body {
+	background-color: rgba(26,26,26,1);
+	margin: 0;
+	color: $font-color;
+	font-family: $font-style;
+	font-size: 1.1em;
+	line-height: 1.6;
+	-webkit-font-smoothing: antialiased;
+}
+h1,
+h2,
+h3 {
+	font-weight: 700;
+	color: $heading-font-color;
+	font-family: $heading-font;
+	line-height: 1.5;
+	letter-spacing: 0.25em;
+}
+h1 {
+	color: $heading-font-color;
+	font-size: 5em;
+}
+h2 {
+	font-size: 2em;
+}
+a,
+a:visited {
+	color: $link-color;
+	text-decoration: underline;
+	font-weight: bold;
+}
+a:hover {
+	color: $link-hover-color;
+	text-decoration: underline;
+}
+header {
+	padding: 0px 15px;
+	text-align: center;
+	height: 25vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 0;
+	& img {
+
+	}
+}
+main {
+	padding: 0 15px;
+	max-width: $content-width;
+	margin: 0 auto;
+}
+time {
+	color: #898989;
+}
+.container {
+	max-width: $content-width;
+	margin: 0 auto;
+}
+article {
+	height: 10vh;
+	& p {
+		font-family: "Lato", sans-serif;
+		font-size: 20px;
+		font-weight: 100;
+		text-align: center;
+	}
+}
+
+section {
+	display: flex;
+	    height: 35vh;
+	 & iframe {
+		 margin: 0 auto;
+	 }
+}
+
+div#mc_embed_signup {
+	height: 20vh;
+}
+
+div#mc_embed_signup input.email {
+	color: $heading-font-color !important;
+	background-color: rgba(0,0,0,0) !important;
+}
+
+footer {
+	text-align: center;
+	padding: 40px;
+	color:$grey-color;
+	font-size: 14px;
+}
